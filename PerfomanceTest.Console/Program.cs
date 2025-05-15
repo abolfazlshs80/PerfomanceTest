@@ -18,15 +18,15 @@ namespace PerfomanceTest.Console1
             // var summary = BenchmarkRunner.Run<FisrtOrDefualt_Find>();
             //   var summary = BenchmarkRunner.Run<New_Activator_CreateInstance>();
             // var summary = BenchmarkRunner.Run<Enum_TryParse_IsDefined>();
-             var summary = BenchmarkRunner.Run<ProperyPatterns>();
+            //    var summary = BenchmarkRunner.Run<ProperyPatterns>();
+                var summary = BenchmarkRunner.Run<TupleType_TupleValue>();
 
 
             Console.ReadKey();
         }
+ 
 
-
-
-
+   
     }
 
 
